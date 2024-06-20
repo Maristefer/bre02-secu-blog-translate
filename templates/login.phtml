@@ -1,0 +1,35 @@
+<main id="login" class="container py-5 px-3">
+    <?php
+    if(isset($_SESSION["error-message"]))
+    {
+        ?>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <?= $_SESSION["error-message"] ?>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <?php
+    }
+    ?>
+    <h1 class="mb-5"><?= $this->translator->translate("blog_title") ?></h1>
+
+    <h2 class="mt-5"><?= $this->translator->translate("login_title_form") ?></h2>
+
+    <form action="index.php?route=check-login" method="post">
+        <input type="hidden" name="csrf-token" id="csrf-token" value="<?= $_SESSION["csrf-token"] ?>" />
+        <fieldset class="my-1">
+            <label for="email" class="form-label">
+                <?= $this->translator->translate("login_email_label") ?>
+            </label>
+            <input type="email" name="email" id="email" class="form-control"/>
+        </fieldset>
+        <fieldset class="my-1">
+            <label for="password" class="form-label">
+                <?= $this->translator->translate("login_password_label") ?>
+            </label>
+            <input type="password" name="password" id="password" class="form-control" />
+        </fieldset>
+        <fieldset>
+            <button type="submit" class="btn btn-primary"><?= $this->translator->translate("login_submit_button") ?></button>
+        </fieldset>
+    </form>
+</main>

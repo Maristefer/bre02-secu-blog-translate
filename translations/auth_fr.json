@@ -1,0 +1,18 @@
+{
+    "nav_home_link" : "Accueil",
+    "nav_login_link" : "Connexion",
+    "nav_register_link" : "Inscription",
+    "nav_switch_link" : "Changer de langue",
+    "nav_logout_link" : "Déconnexion",
+    "blog_title" : "Blog sécurisé",
+    "login_title_form" : "Connexion",
+    "login_email_label" : "Email",
+    "login_password_label" : "Mot de passe",
+    "login_submit_button" : "Connexion",
+    "register_title_form" : "Inscription",
+    "register_username_label" : "Nom utilisateur",
+    "register_email_label" : "Email",
+    "register_password_label" : "Mot de passe",
+    "register_confirm_password_label" : "Confirmation mot de passe",
+    "register_submit_button" : "Inscription"
+}

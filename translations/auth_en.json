@@ -1,0 +1,18 @@
+{
+    "nav_home_link" : "Home",
+    "nav_login_link" : "Login",
+    "nav_register_link" : "Register",
+    "nav_switch_link" : "Change language",
+    "nav_logout_link" : "Logout",
+    "blog_title" : "Secured Blog",
+    "login_title_form" : "Login",
+    "login_email_label" : "Email",
+    "login_password_label" : "Password",
+    "login_submit_button" : "Login",
+    "register_title_form" : "Register",
+    "register_username_label" : "Username",
+    "register_email_label" : "Email",
+    "register_password_label" : "Password",
+    "register_confirm_password_label" : "Confirm password",
+    "register_submit_button" : "Register"
+}

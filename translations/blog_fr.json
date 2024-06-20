@@ -1,0 +1,9 @@
+{
+    "nav_home_link" : "Accueil",
+    "nav_login_link" : "Connexion",
+    "nav_register_link" : "Inscription",
+    "nav_switch_link" : "Changer de langue",
+    "nav_logout_link" : "Déconnexion",
+    "blog_title" : "Blog sécurisé",
+    "home_posts_title" : "Derniers posts"
+}
